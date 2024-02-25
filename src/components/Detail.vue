@@ -3,8 +3,8 @@ import {defineProps} from 'vue'
 
 defineProps(['avatarImg','title','descrition','duration','points','toolIcons'])
 
-function getImgUrl(imgUrl) {
-    return new URL(imgUrl, import.meta.url);
+function getImgUrl(img) {
+    return new URL(`../../assets/authImages/${img}`, import.meta.url);
 }
 </script>
 <template>

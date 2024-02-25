@@ -10,7 +10,7 @@ import Detail from './components/Detail.vue'
     <div class="flex flex-col justify-between w-full">
       <h2 class="text-xl font-semibold">Work Experience</h2>
       <Detail
-        avatarImg="/src/assets/images/techtrack.jpeg"
+        avatarImg="techtrack.jpeg"
         title="Tech Track"
         descrition="Web Development Intern"
         duration="May 2021 - Sep 2021"
@@ -20,13 +20,13 @@ import Detail from './components/Detail.vue'
           'designed pages for ERP in bootstrape.'
         ]"
         :toolIcons="[
-          '/src/assets/images/html-5.png',
-          '/src/assets/images/css-3.png',
-          '/src/assets/images/bootstrap.png'
+          'html-5.png',
+          'css-3.png',
+          'bootstrap.png'
         ]"
       />
       <Detail
-        avatarImg="/src/assets/images/antonx.jpeg"
+        avatarImg="antonx.jpeg"
         title="AntonX"
         descrition="Associate Software Engineer"
         duration="Sep 2022 - Present"
@@ -39,14 +39,14 @@ import Detail from './components/Detail.vue'
           'Currently i am working on a website. which is food ordering app in uk.'
         ]"
         :toolIcons="[
-          '/src/assets/images/html-5.png',
-          '/src/assets/images/css-3.png',
-          '/src/assets/images/tailwindcss.svg',
-          '/src/assets/images/vuejs.svg',
-          '/src/assets/images/pinia.png',
-          '/src/assets/images/reactjs.png',
-          '/src/assets/images/react-router.svg',
-          '/src/assets/images/redux.svg',
+          'html-5.png',
+          'css-3.png',
+          'tailwindcss.svg',
+          'vuejs.svg',
+          'pinia.png',
+          'reactjs.png',
+          'react-router.svg',
+          'redux.svg',
         ]"
       />
     </div>
