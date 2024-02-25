@@ -11,6 +11,9 @@ import { useClipboard } from '@vueuse/core'
 const source = ref('israruetp@gmail.com')
 const { toast } = useToast()
 const { text, copy, copied } = useClipboard({ source })
+function getImgUrl() {
+    return new URL(`../assets/profile.jpg`, import.meta.url);
+}
 </script>
 <template>
      <div class="flex gap-32 justify-between w-full">
@@ -75,8 +78,8 @@ const { text, copy, copied } = useClipboard({ source })
       </div>
       <div>
         <Avatar class="w-32 h-32">
-          <AvatarImage src="/src/assets/profile.jpg" alt="@radix-vue" />
-          <AvatarFallback>CN</AvatarFallback>
+          <AvatarImage :src="getImgUrl()" alt="@radix-vue" />
+          <AvatarFallback>MIK</AvatarFallback>
         </Avatar>
       </div>
     </div>
