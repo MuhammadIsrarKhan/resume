@@ -18,7 +18,7 @@ const { text, copy, copied } = useClipboard({ source })
         <h1 class="text-3xl font-semibold">Muhammad Israr Khan</h1>
         <p class="text-lg font-normal my-1">
           Versatile Software Engineer, crafting challenging products <br />
-          with extra attention to detail. 2.3 years of experience.
+          with extra attention to detail. 2+ years of experience.
         </p>
         <div class="flex gap-1 mb-2">
           <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />
@@ -117,11 +117,11 @@ const { text, copy, copied } = useClipboard({ source })
         <div class="flex gap-2">
           <Badge
             class="flex items-center justify-center text-base gap-2 font-medium bg-gray-700 hover:bg-black w-fit"
-            ><img src="@/assets/images/vscode.svg" alt="" class="w-4 h-4" /> Javascript</Badge
+            ><img src="@/assets/images/html-5.png" alt="" class="w-4 h-4" /> HTML5</Badge
           >
           <Badge
             class="flex items-center justify-center text-base gap-2 font-medium bg-gray-700 hover:bg-black w-fit"
-            ><img src="@/assets/images/php.png" alt="" class="w-4 h-4" />PHP</Badge
+            ><img src="@/assets/images/css-3.png" alt="" class="w-4 h-4" />CSS3</Badge
           >
         </div>
       </div>
