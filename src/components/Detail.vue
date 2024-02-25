@@ -4,13 +4,13 @@ import {defineProps} from 'vue'
 defineProps(['avatarImg','title','descrition','duration','points','toolIcons'])
 
 function getImgUrl(img) {
-    return new URL(`../../assets/authImages/${img}`, import.meta.url);
+    return new URL(`../assets/images/${img}`, import.meta.url);
 }
 </script>
 <template>
   <div class="flex items-center justify-between mt-4">
     <div class="flex gap-5">
-      <img :src="avatarImg" alt="" class="w-10 h-10 rounded-full self-start" />
+      <img :src="getImgUrl(avatarImg)" alt="" class="w-10 h-10 rounded-full self-start" />
       <div>
         <h3 class="text-xl font-medium">{{ title }}</h3>
         <p class="text-lg font-medium">{{ descrition }} <span class="text-[40px]">.</span> <span class="text-gray-600">{{ duration }}</span></p>
