@@ -5,26 +5,10 @@ import Detail from './components/Detail.vue'
 </script>
 
 <template>
-  <div class="flex items-center gap-4 flex-col py-14 mx-4 lg:mx-32 xl:mx-64 2xl:mx-80">
+  <div class="flex items-center gap-4 flex-col py-14 print:mx-0 mx-4 lg:mx-32 xl:mx-64 2xl:mx-80">
     <Hero />
     <div class="flex flex-col justify-between w-full">
       <h2 class="text-xl font-semibold">Work Experience</h2>
-      <Detail
-        avatarImg="techtrack.jpeg"
-        title="Tech Track"
-        descrition="Web Development Intern"
-        duration="May 2021 - Sep 2021"
-        :points="[
-          'I learned HTML5,CSS3 and bootstrap in this internship.',
-          'I designed invoices for different vendors which are customer of my company.',
-          'designed pages for ERP in bootstrape.'
-        ]"
-        :toolIcons="[
-          'html-5.png',
-          'css-3.png',
-          'bootstrap.png'
-        ]"
-      />
       <Detail
         avatarImg="antonx.jpeg"
         title="AntonX"
@@ -47,6 +31,41 @@ import Detail from './components/Detail.vue'
           'reactjs.png',
           'react-router.svg',
           'redux.svg',
+          'react-query.jpeg'
+        ]"
+      />
+      <Detail
+        avatarImg="marq.png"
+        title="marQnetworks"
+        descrition="web developer"
+        duration="Aug 2021 - Dec 2022"
+        :points="[
+          'I worked on their website of real state.',
+          'design and integrate website with pure html css and javascript.'
+        ]"
+        :toolIcons="['html-5.png', 'css-3.png', 'js.png']"
+      />
+      <Detail
+        avatarImg="techtrack.jpeg"
+        title="Tech Track"
+        descrition="Web Development Intern"
+        duration="May 2021 - Sep 2021"
+        :points="[
+          'I learned HTML5,CSS3 and bootstrap in this internship.',
+          'I designed invoices for different vendors which are customer of my company.',
+          'designed pages for ERP in bootstrape.'
+        ]"
+        :toolIcons="['html-5.png', 'css-3.png', 'bootstrap.png']"
+      />
+    </div>
+    <div class="flex flex-col justify-between w-full">
+      <h2 class="text-xl font-semibold">Education</h2>
+      <Detail
+        avatarImg="uet.jpeg"
+        title="University of Engineering & Technology, Peshawar"
+        duration="Sep 2018 - July 2022"
+        :points="[
+          'Engineering Degree in computer systems.',
         ]"
       />
     </div>
