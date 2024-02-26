@@ -7,7 +7,15 @@ import Button from '@/components/ui/button/Button.vue'
 import Tooltip from '@/components/Tooltip.vue'
 import { ref } from 'vue'
 import { useClipboard } from '@vueuse/core'
-import { Heart, Laptop, GraduationCap, TowerControl, ScanText, Target,ShieldHalf  } from 'lucide-vue-next'
+import {
+  Heart,
+  Laptop,
+  GraduationCap,
+  TowerControl,
+  ScanText,
+  Target,
+  ShieldHalf
+} from 'lucide-vue-next'
 
 const source = ref('israruetp@gmail.com')
 const { toast } = useToast()
@@ -17,7 +25,7 @@ function getImgUrl() {
 }
 </script>
 <template>
-  <div class="flex md:gap-32 justify-between w-full">
+  <div class="flex md:gap-32 justify-between print:md:gap-4 w-full">
     <div>
       <h1 class="text-3xl font-semibold">Muhammad Israr Khan</h1>
       <p class="text-lg font-normal my-1">
@@ -76,6 +84,22 @@ function getImgUrl() {
           </template>
         </Tooltip>
       </div>
+    </div>
+    <div class="hidden print:block">
+      <ul class="flex flex-col gap-4">
+        <li class="flex gap-2 items-start">
+          <img src="@/components/icons/mail.svg" alt="" class="w-4 h-4" />
+          <p class="-translate-y-1">israruetp@gmail.com</p>
+        </li>
+        <li class="flex gap-2 items-start">
+          <img src="@/components/icons/github.svg" alt="" class="w-4 h-4" />
+          <p class="-translate-y-1">https://github.com/MuhammadIsrarKhan</p>
+        </li>
+        <li class="flex gap-2 items-start">
+          <img src="@/components/icons/linkedin.svg" alt="" class="w-4 h-4" />
+          <p class="-translate-y-1">https://www.linkedin.com/in/muhammad-israr-khan-558300199/</p>
+        </li>
+      </ul>
     </div>
     <div>
       <Avatar class="w-16 h-16 md:w-32 md:h-32">
