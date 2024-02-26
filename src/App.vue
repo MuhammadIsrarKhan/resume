@@ -7,7 +7,7 @@ import Detail from './components/Detail.vue'
 <template>
   <div class="flex items-center gap-4 flex-col py-14 mx-4 lg:mx-32 xl:mx-64 2xl:mx-80">
     <Hero />
-    <div class="flex flex-col gap-5 justify-between w-full">
+    <div class="flex flex-col gap-5 justify-between w-full print:mt-28">
       <h2 class="text-xl font-semibold">Work Experience</h2>
       <Detail
         avatarImg="antonx.jpeg"
@@ -59,7 +59,7 @@ import Detail from './components/Detail.vue'
       />
     </div>
     <div class="flex flex-col justify-between w-full">
-      <h2 class="text-xl font-semibold">Education</h2>
+      <h2 class="text-xl font-semibold ">Education</h2>
       <Detail
         avatarImg="uet.jpeg"
         title="University of Engineering & Technology, Peshawar"
@@ -84,7 +84,7 @@ import Detail from './components/Detail.vue'
       />
     </div>
     <div class="print:items-center print:justify-center hidden print:flex">
-      <p class="flex gap-1 mb-2"> <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />Go to <strong>https://resume-nine-orcin.vercel.app/</strong> to see this resume in more details.</p>
+      <p class="flex gap-1 mb-2"> <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />Go to <a href="https://resume-nine-orcin.vercel.app/"><strong>https://resume-nine-orcin.vercel.app/</strong></a> to see this resume in more details.</p>
     </div>
   </div>
   <Toaster />

@@ -14,8 +14,10 @@ import {
   TowerControl,
   ScanText,
   Target,
-  ShieldHalf
+  ShieldHalf,
+  MapPin
 } from 'lucide-vue-next'
+
 
 const source = ref('israruetp@gmail.com')
 const { toast } = useToast()
@@ -33,7 +35,8 @@ function getImgUrl() {
         with extra attention to detail. 2+ years of experience.
       </p>
       <div class="flex gap-1 mb-2">
-        <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />
+        <!-- <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" /> -->
+        <MapPin class="w-5 h-5" />
         <p class="text-sm">Peshawar, Pakistan</p>
       </div>
       <div class="flex gap-3 mt-2.5 print:hidden">
@@ -108,8 +111,8 @@ function getImgUrl() {
       </Avatar>
     </div>
   </div>
-  <div class="flex flex-col md:flex-row gap-y-6 md:justify-between w-full">
-    <div class="flex gap-2 flex-col">
+  <div class="flex flex-col md:flex-row gap-y-6 md:justify-between w-full print:mt-1">
+    <div class="flex gap-2 flex-col print:gap-4">
       <h2 class="text-xl font-semibold">Main Tools</h2>
       <div class="flex gap-2">
         <Badge
@@ -158,7 +161,7 @@ function getImgUrl() {
         >
       </div>
     </div>
-    <div class="flex gap-2 flex-col">
+    <div class="flex gap-2 flex-col print:gap-4">
       <h2 class="text-xl font-semibold">Roles</h2>
       <Tooltip>
         <template #default>
@@ -208,7 +211,7 @@ function getImgUrl() {
         </template>
       </Tooltip>
     </div>
-    <div class="flex gap-2 flex-col">
+    <div class="flex gap-2 flex-col print:gap-4">
       <h2 class="text-xl font-semibold">Values</h2>
       <Tooltip>
         <template #default>
