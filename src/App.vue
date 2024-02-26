@@ -67,6 +67,22 @@ import Detail from './components/Detail.vue'
         :points="['Engineering Degree in computer systems.']"
       />
     </div>
+    <div class="flex flex-col justify-between w-full">
+      <h2 class="text-xl font-semibold">Side Projects</h2>
+      <Detail
+        avatarImg="watch-turks.svg"
+        title="Watch Turks"
+        duration="Nov 2022 - Jan 2023"
+        :points="['The premium website for Turkish Series!.','I integrate apis in this website!.']"
+        :toolIcons="[
+          'tailwindcss.svg',
+          'reactjs.png',
+          'react-router.svg',
+          'redux.svg',
+          'react-query.jpeg'
+        ]"
+      />
+    </div>
     <div class="print:items-center print:justify-center hidden print:flex">
       <p class="flex gap-1 mb-2"> <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />Go to <strong>https://resume-nine-orcin.vercel.app/</strong> to see this resume in more details.</p>
     </div>
