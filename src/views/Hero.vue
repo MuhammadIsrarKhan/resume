@@ -18,7 +18,6 @@ import {
   MapPin
 } from 'lucide-vue-next'
 
-
 const source = ref('israruetp@gmail.com')
 const { toast } = useToast()
 const { text, copy, copied } = useClipboard({ source })
@@ -158,6 +157,10 @@ function getImgUrl() {
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
           ><img src="@/assets/images/firebase.png" alt="" class="w-4 h-4" /> Firebase</Badge
+        >
+        <Badge
+          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          ><img src="@/assets/images/docker.png" alt="" class="w-4 h-4" /> Docker</Badge
         >
       </div>
     </div>
