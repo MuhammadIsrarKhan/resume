@@ -82,6 +82,19 @@ import Detail from './components/Detail.vue'
           'react-query.jpeg'
         ]"
       />
+      <Detail
+        avatarImg="billbb.ico"
+        title="Billbb Dashboard"
+        duration="June 2024 - July 2024"
+        :points="['Dashboard for managing data of mobile application!']"
+        :toolIcons="[
+          'nextjs-icon.svg',
+          'nodejs.png',
+          'reactjs.png',
+          'redux.svg',
+          'react-query.jpeg'
+        ]"
+      />
     </div>
     <div class="print:items-center print:justify-center hidden print:flex">
       <p class="flex gap-1 mb-2"> <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />Go to <a href="https://resume-nine-orcin.vercel.app/"><strong>https://misrarkhan.vercel.app/</strong></a> to see this resume in more details.</p>

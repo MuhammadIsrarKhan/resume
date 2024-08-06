@@ -20,7 +20,7 @@ import {
 
 const source = ref('israruetp@gmail.com')
 const { toast } = useToast()
-const { text, copy, copied } = useClipboard({ source })
+const { copy } = useClipboard({ source })
 function getImgUrl() {
   return new URL(`../assets/profile.jpg`, import.meta.url)
 }
@@ -31,7 +31,7 @@ function getImgUrl() {
       <h1 class="text-3xl font-semibold">Muhammad Israr Khan</h1>
       <p class="text-lg font-normal my-1">
         Versatile Software Engineer, crafting challenging products <br />
-        with extra attention to detail. 2+ years of experience.
+        with extra attention to detail. 3+ years of experience.
       </p>
       <div class="flex gap-1 mb-2">
         <!-- <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" /> -->
@@ -116,17 +116,22 @@ function getImgUrl() {
       <div class="flex gap-2">
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/vuejs.svg" alt="" class="w-4 h-4" /> vue js</Badge
+          ><img src="@/assets/images/html-5.png" alt="" class="w-4 h-4" /> HTML5</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/reactjs.png" alt="" class="w-4 h-4" /> React js</Badge
+          ><img src="@/assets/images/css-3.png" alt="" class="w-4 h-4" />CSS3</Badge
         >
       </div>
+      <Badge
+        class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+        ><img src="@/assets/images/tailwindcss.svg" alt="" class="w-4 h-4" />css utility
+        frameworks</Badge
+      >
       <div class="flex gap-2">
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/tailwindcss.svg" alt="" class="w-4 h-4" /> tailwind css</Badge
+          ><img src="@/assets/images/js.png" alt="" class="w-4 h-4" /> Javascript</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
@@ -136,24 +141,26 @@ function getImgUrl() {
       <div class="flex gap-2">
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/js.png" alt="" class="w-4 h-4" /> Javascript</Badge
+          ><img src="@/assets/images/reactjs.png" alt="" class="w-4 h-4" /> React js</Badge
+        >
+        <Badge
+          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          ><img src="@/assets/images/nextjs-icon.svg" alt="" class="w-4 h-4" /> Next js</Badge
+        >
+        <Badge
+          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          ><img src="@/assets/images/vuejs.svg" alt="" class="w-4 h-4" /> vue js</Badge
+        >
+      </div>
+      <div class="flex gap-2">
+        <Badge
+          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          ><img src="@/assets/images/nodejs.png" alt="" class="w-4 h-4" />Node js</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
           ><img src="@/assets/images/php.png" alt="" class="w-4 h-4" />PHP</Badge
         >
-      </div>
-      <div class="flex gap-2">
-        <Badge
-          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/html-5.png" alt="" class="w-4 h-4" /> HTML5</Badge
-        >
-        <Badge
-          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/css-3.png" alt="" class="w-4 h-4" />CSS3</Badge
-        >
-      </div>
-      <div class="flex gap-2">
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
           ><img src="@/assets/images/firebase.png" alt="" class="w-4 h-4" /> Firebase</Badge
