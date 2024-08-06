@@ -5,7 +5,7 @@ import Detail from './components/Detail.vue'
 </script>
 
 <template>
-  <div class="flex items-center gap-4 flex-col py-14 mx-4 lg:mx-32 xl:mx-64 2xl:mx-80">
+  <div class="flex items-center gap-4 flex-col py-14 mx-4 lg:mx-32 xl:mx-52 2xl:mx-80">
     <Hero />
     <div class="flex flex-col gap-5 justify-between w-full print:mt-52">
       <h2 class="text-xl font-semibold">Work Experience</h2>
