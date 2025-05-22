@@ -125,7 +125,7 @@ function getImgUrl() {
       </div>
       <Badge
         class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-        ><img src="@/assets/images/Tailwindcss.svg" alt="" class="w-4 h-4" />css utility
+        ><img src="@/assets/images/tailwindcss.svg" alt="" class="w-4 h-4" />css utility
         frameworks</Badge
       >
       <div class="flex gap-2">

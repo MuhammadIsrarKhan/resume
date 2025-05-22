@@ -41,7 +41,7 @@ import Detail from './components/Detail.vue'
         :toolIcons="[
           'HTML5.png',
           'CSS3.png',
-          'Tailwindcss.svg',
+          'tailwindcss.svg',
           'Javascript.png',
           'Typescript.svg',
           'vuejs.svg',
@@ -104,7 +104,7 @@ import Detail from './components/Detail.vue'
           'Developing and maintaining features using Next.js ,Nest.js.'
         ]"
         :toolIcons="[
-          'Tailwindcss.svg',
+          'tailwindcss.svg',
           'Nextjs.svg',
           'zustand.svg',
           'react-query.jpeg',
@@ -120,7 +120,7 @@ import Detail from './components/Detail.vue'
           'I integrate apis in this website!.'
         ]"
         :toolIcons="[
-          'Tailwindcss.svg',
+          'tailwindcss.svg',
           'reactjs.png',
           'react-router.svg',
           'redux.svg',
