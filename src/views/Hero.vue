@@ -163,7 +163,7 @@ function getImgUrl() {
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/Nestjs.png" alt="" class="w-4 h-4" />Nest Js</Badge
+          ><img src="@/assets/images/nest.png" alt="" class="w-4 h-4" />Nest Js</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
