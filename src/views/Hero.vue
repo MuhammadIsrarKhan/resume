@@ -2,7 +2,7 @@
 import { useToast } from '@/components/ui/toast/use-toast'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
-import { MessagesSquare } from 'lucide-vue-next'
+import { MessagesSquare, ShoppingCart } from 'lucide-vue-next'
 import Button from '@/components/ui/button/Button.vue'
 import Tooltip from '@/components/Tooltip.vue'
 import { ref } from 'vue'
@@ -116,26 +116,26 @@ function getImgUrl() {
       <div class="flex gap-2">
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/html-5.png" alt="" class="w-4 h-4" /> HTML5</Badge
+          ><img src="@/assets/images/HTML5.png" alt="" class="w-4 h-4" /> HTML5</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/css-3.png" alt="" class="w-4 h-4" />CSS3</Badge
+          ><img src="@/assets/images/CSS3.png" alt="" class="w-4 h-4" />CSS3</Badge
         >
       </div>
       <Badge
         class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-        ><img src="@/assets/images/tailwindcss.svg" alt="" class="w-4 h-4" />css utility
+        ><img src="@/assets/images/Tailwindcss.svg" alt="" class="w-4 h-4" />css utility
         frameworks</Badge
       >
       <div class="flex gap-2">
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/js.png" alt="" class="w-4 h-4" /> Javascript</Badge
+          ><img src="@/assets/images/Javascript.png" alt="" class="w-4 h-4" /> Javascript</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/typescript.svg" alt="" class="w-4 h-4" />Typescript</Badge
+          ><img src="@/assets/images/Typescript.svg" alt="" class="w-4 h-4" />Typescript</Badge
         >
       </div>
       <div class="flex gap-2">
@@ -145,7 +145,7 @@ function getImgUrl() {
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
-          ><img src="@/assets/images/nextjs-icon.svg" alt="" class="w-4 h-4" /> Next js</Badge
+          ><img src="@/assets/images/Nextjs.svg" alt="" class="w-4 h-4" /> Next js</Badge
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
@@ -163,6 +163,16 @@ function getImgUrl() {
         >
         <Badge
           class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          ><img src="@/assets/images/Nestjs.png" alt="" class="w-4 h-4" />Nest Js</Badge
+        >
+        <Badge
+          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          ><img src="@/assets/images/laravel.webp" alt="" class="w-4 h-4" />Laravel</Badge
+        >
+      </div>
+      <div class="flex gap-2">
+        <Badge
+          class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
           ><img src="@/assets/images/firebase.png" alt="" class="w-4 h-4" /> Firebase</Badge
         >
         <Badge
@@ -178,13 +188,14 @@ function getImgUrl() {
           <Badge
             class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
           >
-            <Laptop class="w-4 h-4 print:text-black" /> Frontend Developer</Badge
+            <Laptop class="w-4 h-4 print:text-black" />Fullstack Web Dev</Badge
           >
         </template>
         <template #tooltipContent>
           <p>
-            I build entire web frontend with react <br />
-            js OR vue js.
+            I build entire web and mobile products, <br />
+            from back-end to front-end, with <br />
+            hosting.
           </p>
         </template>
       </Tooltip>
@@ -193,7 +204,23 @@ function getImgUrl() {
           <Badge
             class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
           >
-            <GraduationCap class="w-4 h-4 print:text-black" /> Frondend Lead</Badge
+            <ShoppingCart class="w-4 h-4 print:text-black" />Product Management</Badge
+          >
+        </template>
+        <template #tooltipContent>
+          <p>
+            I help handling product lifecycle: <br />
+            ideation, development, planning, pricing, <br />
+            launching, marketing, support, etc.
+          </p>
+        </template>
+      </Tooltip>
+      <Tooltip>
+        <template #default>
+          <Badge
+            class="flex items-center justify-center text-sm gap-2 font-medium bg-gray-700 hover:bg-black w-fit print:border-gray-400 print:text-black"
+          >
+            <GraduationCap class="w-4 h-4 print:text-black" /> Tech Lead & Mentoring</Badge
           >
         </template>
         <template #tooltipContent>

@@ -12,26 +12,48 @@ import Detail from './components/Detail.vue'
       <Detail
         avatarImg="antonx.jpeg"
         title="AntonX"
-        descrition="Associate Software Engineer"
+        descrition="E2 : Software Development Engineer - 1"
         duration="Sep 2022 - Present"
         :points="[
-          'In AntonX i learned and worked mainly on frontend teachnologies.',
-          'I designed and developed 3 apps from the ground up and one is in progress.',
-          'App #1: a website for finding EV stations in finland.',
-          'App #2: a website for statup portals.',
-          'App #3: a website for buying, renting and selling property in saudia arabia.',
-          'Currently i am working on a website. which is food ordering app in uk.'
+          'SDE-1 at Antonx, working on a SaaS Point of Sale (POS) system as a Full-Stack Web Developer.',
+          'Developing and maintaining features using Vue Js, React.js,Next.js Node.js,Nest.js and Laravel.',
+          'Assisting fellow developers and mentoring junior team members to resolve technical challenges.',
+          'Contributing to performance optimization, scalability, and security of the SaaS POS system.',
+          'Ensuring seamless integration of frontend and backend components for an efficient user experience.',
+          {
+            text: 'App #1: a website for finding EV stations in finland.',
+            url: 'https://evseek.vercel.app/'
+          },
+          { text: 'App #2: a website for statup portals.', url: 'https://startupconnect.pk/' },
+          {
+            text: 'App #3: a website for buying, renting and selling property in saudia arabia.',
+            url: 'https://ewanc.com/'
+          },
+          {
+            text: 'App #4: HalalHMC is a React.js and Tailwind CSS–powered platform that lets UK Muslims confidently verify the genuine Halal status of their meat and food products.',
+            url: 'https://weborders.gethalalnow.com/'
+          },
+          {
+            text: 'App #5: A Web App that enables businesses to manage sales, inventory, and customer transactions efficiently in a cloud-based environment.',
+            url: 'https://edge.unifiedbynow.com'
+          }
         ]"
         :toolIcons="[
-          'html-5.png',
-          'css-3.png',
-          'tailwindcss.svg',
+          'HTML5.png',
+          'CSS3.png',
+          'Tailwindcss.svg',
+          'Javascript.png',
+          'Typescript.svg',
           'vuejs.svg',
           'pinia.png',
+          'zustand.svg',
           'reactjs.png',
           'react-router.svg',
           'redux.svg',
-          'react-query.jpeg'
+          'react-query.jpeg',
+          'Nextjs.svg',
+          'laravel.webp',
+          'Nestjs.png'
         ]"
       />
       <Detail
@@ -43,7 +65,7 @@ import Detail from './components/Detail.vue'
           'I worked on their website of real state.',
           'design and integrate website with pure html css and javascript.'
         ]"
-        :toolIcons="['html-5.png', 'css-3.png', 'js.png']"
+        :toolIcons="['HTML5.png', 'CSS3.png', 'Javascript.png']"
       />
       <Detail
         avatarImg="techtrack.jpeg"
@@ -55,11 +77,11 @@ import Detail from './components/Detail.vue'
           'I designed invoices for different vendors which are customer of my company.',
           'designed pages for ERP in bootstrape.'
         ]"
-        :toolIcons="['html-5.png', 'css-3.png', 'bootstrap.png']"
+        :toolIcons="['HTML5.png', 'CSS3.png', 'Bootstrap.png']"
       />
     </div>
     <div class="flex flex-col justify-between w-full">
-      <h2 class="text-xl font-semibold ">Education</h2>
+      <h2 class="text-xl font-semibold">Education</h2>
       <Detail
         avatarImg="uet.jpeg"
         title="University of Engineering & Technology, Peshawar"
@@ -70,12 +92,35 @@ import Detail from './components/Detail.vue'
     <div class="flex flex-col justify-between w-full">
       <h2 class="text-xl font-semibold">Side Projects</h2>
       <Detail
+        avatarImg="Ashtra-workspace.svg"
+        title="Ashtra Workspace Dashboard"
+        duration="Nov 2024 - present"
+        :points="[
+          {
+            text: 'Ashtra integrates advanced AI tools with essential business management features—seamless payments, intelligent scheduling, customer engagement, marketplace, marketing, and more—to help businesses thrive.',
+            url: 'https://dashboard.ashtra.ai/'
+          },
+          'Working on a Ashtra workspace dashboard system as a Full-Stack Web Developer.',
+          'Developing and maintaining features using Next.js ,Nest.js.'
+        ]"
+        :toolIcons="[
+          'Tailwindcss.svg',
+          'Nextjs.svg',
+          'zustand.svg',
+          'react-query.jpeg',
+          'Nestjs.png',
+        ]"
+      />
+      <Detail
         avatarImg="watch-turks.svg"
         title="Watch Turks"
         duration="Nov 2022 - Jan 2023"
-        :points="['The premium website for Turkish Series!.','I integrate apis in this website!.']"
+        :points="[
+          { text: 'The premium website for Turkish Series!.', url: 'https://watchturks.online/' },
+          'I integrate apis in this website!.'
+        ]"
         :toolIcons="[
-          'tailwindcss.svg',
+          'Tailwindcss.svg',
           'reactjs.png',
           'react-router.svg',
           'redux.svg',
@@ -86,18 +131,23 @@ import Detail from './components/Detail.vue'
         avatarImg="billbb.ico"
         title="Billbb Dashboard"
         duration="June 2024 - July 2024"
-        :points="['Dashboard for managing data of mobile application!']"
-        :toolIcons="[
-          'nextjs-icon.svg',
-          'nodejs.png',
-          'reactjs.png',
-          'redux.svg',
-          'react-query.jpeg'
+        :points="[
+          {
+            text: 'Dashboard for managing data of mobile application!',
+            url: 'https://testfrontend.billbbtest.site'
+          }
         ]"
+        :toolIcons="['Nextjs.svg', 'nodejs.png', 'reactjs.png', 'redux.svg', 'react-query.jpeg']"
       />
     </div>
     <div class="print:items-center print:justify-center hidden print:flex">
-      <p class="flex gap-1 mb-2"> <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />Go to <a href="https://resume-nine-orcin.vercel.app/"><strong>https://misrarkhan.vercel.app/</strong></a> to see this resume in more details.</p>
+      <p class="flex gap-1 mb-2">
+        <img src="@/components/icons/world.svg" alt="" width="20px" height="20px" />Go to
+        <a href="https://resume-nine-orcin.vercel.app/"
+          ><strong>https://misrarkhan.vercel.app/</strong></a
+        >
+        to see this resume in more details.
+      </p>
     </div>
   </div>
   <Toaster />
